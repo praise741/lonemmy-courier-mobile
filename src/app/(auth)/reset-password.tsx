@@ -62,7 +62,7 @@ export default function ResetPasswordScreen() {
           {/* Header */}
           <View style={styles.header}>
           <View style={styles.logoContainer}>
-            <Image source={require('../../assets/images/logo.jpg')} style={styles.logoImage} resizeMode="contain" />
+            <Image source={require('../../../assets/images/logo.jpg')} style={styles.logoImage} resizeMode="contain" />
           </View>
             <Text style={[TYPOGRAPHY.headlineXl, styles.title]}>Reset Password</Text>
             <Text style={[TYPOGRAPHY.body, styles.subtitle]}>

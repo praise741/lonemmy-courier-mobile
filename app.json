@@ -8,9 +8,11 @@
     "scheme": "mobile",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/images/icon.png"
+      "icon": "./assets/images/icon.png",
+      "bundleIdentifier": "com.praise741.lonemmycourier"
     },
     "android": {
+      "package": "com.praise741.lonemmycourier",
       "adaptiveIcon": {
         "backgroundColor": "#F9FAFB",
         "foregroundImage": "./assets/images/android-icon-foreground.png"
@@ -38,6 +40,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "95b66731-93a6-4b4c-af78-c3e876d5d3c7"
+      }
+    },
+    "owner": "praiseamazon"
   }
 }

@@ -71,7 +71,7 @@ export default function RegisterScreen() {
           {/* Header */}
           <View style={styles.header}>
           <View style={styles.logoContainer}>
-            <Image source={require('../../assets/images/logo.jpg')} style={styles.logoImage} resizeMode="contain" />
+            <Image source={require('../../../assets/images/logo.jpg')} style={styles.logoImage} resizeMode="contain" />
           </View>
             <Text style={[TYPOGRAPHY.headlineXl, styles.title]}>Create Account</Text>
             <Text style={[TYPOGRAPHY.body, styles.subtitle]}>

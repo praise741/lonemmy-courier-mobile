@@ -1,0 +1,12 @@
+appId: com.praise741.lonemmycourier
+---
+- clearState
+- launchApp
+- tapOn: "Food & Shop"
+- assertVisible: "Welcome Back"
+- tapOn: "Enter your email"
+- inputText: "demo@lonemmy.com"
+- tapOn: "Enter your password"
+- inputText: "Customer123!"
+- tapOn: "Log In"
+- assertVisible: "Explore Campus Vendors"

@@ -44,7 +44,7 @@ export default function ForgotPasswordScreen() {
           {/* Header */}
           <View style={styles.header}>
           <View style={styles.logoContainer}>
-            <Image source={require('../../assets/images/logo.jpg')} style={styles.logoImage} resizeMode="contain" />
+            <Image source={require('../../../assets/images/logo.jpg')} style={styles.logoImage} resizeMode="contain" />
           </View>
             <Text style={[TYPOGRAPHY.headlineXl, styles.title]}>Forgot Password</Text>
             <Text style={[TYPOGRAPHY.body, styles.subtitle]}>
